@@ -8,7 +8,7 @@ Desenvolvido pelo Time Super Devs: (melhor Time)
 3.Luana Andare
 4.Lucas Salvador
 
-# Para utilizar o PWA no chrome não esqueça de habilitar o modo Mobile no navegador através do modo ferramenta de desenvolver  
+# Para utilizar o PWA no chrome não esqueça de habilitar o modo Mobile no navegador através do modo ferramenta de desenvolvedor  
 
 > O projeto utiliza framework JS VUe logo para utilizá-lo é necessário ter instalado:
 >  nodejs e yarn
