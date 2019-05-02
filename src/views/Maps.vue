@@ -42,24 +42,24 @@ export default {
         snackbar: false,
         teste: null
       }
-  },
-  methods: {
-    snack (...args) {
-      this.top = false
-      this.bottom = false
-      this.left = false
-      this.right = false
-
-      for (const loc of args) {
-        this[loc] = true
-      }
-      this.snackbar = true
     },
-    nomesLista() {
-      this.arrayImoveis.forEach(a => {
-        this.arrayNomes.push(a.nome)
-      });
+    methods: {
+      snack (...args) {
+        this.top = false
+        this.bottom = false
+        this.left = false
+        this.right = false
+
+        for (const loc of args) {
+          this[loc] = true
+        }
+        this.snackbar = true
+      },
+      nomesLista() {
+        this.arrayImoveis.forEach(a => {
+          this.arrayNomes.push(a.nome)
+        })
+      }
+    }
   }
-}
-}
 </script>
