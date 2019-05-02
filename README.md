@@ -1,5 +1,5 @@
-# Fracis
-O Fracis é um chat onde o usuário poderá ter a experiência de procurar imoveis, relatar problemas no imovel, avaliar um imovel etc.
+# Francis
+O Francis é um chat onde o usuário poderá ter a experiência de procurar imoveis, relatar problemas no imovel, avaliar um imovel etc.
 
 Desenvolvido pelo Time Super Devs: (melhor Time)
 
