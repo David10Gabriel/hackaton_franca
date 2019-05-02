@@ -7,14 +7,14 @@ export default {
   components: {
     'reports': reports,
     'avaliar': avaliar,
-    'anunciar': anunciar,
+    'anunciar': anunciar
   },
-  created() {
+  created () {
     this.arrayImoveis = imoveis.houses
     this.avancarConversa()
     this.avatar = './img/francis.png'
   },
-  data() {
+  data () {
     return {
       avatar: '',
       arrayHistoricoConversa: [],
@@ -71,7 +71,7 @@ export default {
               }
             ]
           }
-        }, 
+        }
       ],
       arrayScriptCompraAluguelSimples: [
         {
@@ -79,7 +79,7 @@ export default {
           foiExibido: false,
           pausaEscrita: 2,
           modelo: 'informacao',
-          texto: 'Acho que ainda não nos conhecemos!',
+          texto: 'Acho que ainda não nos conhecemos!'
         },
         {
           id: 1,
@@ -101,7 +101,7 @@ export default {
           foiExibido: false,
           pausaEscrita: 2,
           modelo: 'informacao',
-          texto: 'Muito prazer!',
+          texto: 'Muito prazer!'
         },
         {
           id: 3,
@@ -117,14 +117,14 @@ export default {
             label: 'Minha idade é...',
             texto: ''
           }
-        },    
+        },
         {
           id: 4,
           foiExibido: false,
           pausaEscrita: 2,
           modelo: 'informacao',
-          texto: 'Hmm, você é jovem como eu 😀!',
-        },   
+          texto: 'Hmm, você é jovem como eu 😀!'
+        },
         {
           id: 5,
           foiExibido: false,
@@ -138,20 +138,20 @@ export default {
             opcoes: [
               {
                 id: 0,
-                texto: 'Casa',
+                texto: 'Casa'
               },
               {
                 id: 1,
-                texto: 'Apartamento ou casa em condomínio',
+                texto: 'Apartamento ou casa em condomínio'
               },
               {
                 id: 2,
-                texto: 'Chácara ou sítio',
+                texto: 'Chácara ou sítio'
               },
               {
                 id: 3,
-                texto: 'Terreno ou terreno em condomínio',
-              },
+                texto: 'Terreno ou terreno em condomínio'
+              }
             ]
           }
         },
@@ -168,7 +168,7 @@ export default {
             opcoes: [
               {
                 id: 0,
-                texto: 'Apenas 1',
+                texto: 'Apenas 1'
               },
               {
                 id: 1,
@@ -177,7 +177,7 @@ export default {
               {
                 id: 2,
                 texto: 'Mais de 3'
-              },
+              }
             ]
           }
         },
@@ -194,7 +194,7 @@ export default {
             opcoes: [
               {
                 id: 0,
-                texto: 'Apenas 1',
+                texto: 'Apenas 1'
               },
               {
                 id: 1,
@@ -203,7 +203,7 @@ export default {
               {
                 id: 2,
                 texto: 'Mais de 3'
-              },
+              }
             ]
           }
         },
@@ -235,16 +235,16 @@ export default {
             opcoes: [
               {
                 id: 0,
-                texto: 'Apenas 1, meu possante...',
+                texto: 'Apenas 1, meu possante...'
               },
               {
                 id: 1,
-                texto: 'Tenho 2 xodós',
+                texto: 'Tenho 2 xodós'
               },
               {
                 id: 2,
-                texto: 'Mais de 3, sim, isso mesmo',
-              },
+                texto: 'Mais de 3, sim, isso mesmo'
+              }
             ]
           }
         },
@@ -268,10 +268,10 @@ export default {
                 id: 1,
                 texto: 'Quero filtrar mais',
                 funcao: 'iniciarExtendido'
-              },
+              }
             ]
           }
-        },
+        }
       ],
       arrayScriptAnuncio: [
         {
@@ -279,7 +279,7 @@ export default {
           foiExibido: false,
           pausaEscrita: 2,
           modelo: 'informacao',
-          texto: 'Acho que ainda não nos conhecemos!',
+          texto: 'Acho que ainda não nos conhecemos!'
         },
         {
           id: 1,
@@ -301,7 +301,7 @@ export default {
           foiExibido: false,
           pausaEscrita: 2,
           modelo: 'informacao',
-          texto: 'Muito prazer!',
+          texto: 'Muito prazer!'
         },
         {
           id: 3,
@@ -323,7 +323,7 @@ export default {
           foiExibido: false,
           pausaEscrita: 2,
           modelo: 'informacao',
-          texto: 'E se precisarmos te ligar...',
+          texto: 'E se precisarmos te ligar...'
         },
         {
           id: 5,
@@ -345,7 +345,7 @@ export default {
           foiExibido: false,
           pausaEscrita: 2,
           modelo: 'informacao',
-          texto: 'Vamos falar do seu imóvel!',
+          texto: 'Vamos falar do seu imóvel!'
         },
         {
           id: 7,
@@ -405,39 +405,39 @@ export default {
             opcoes: [
               {
                 id: 0,
-                texto: 'Apartamento',
+                texto: 'Apartamento'
               },
               {
                 id: 1,
-                texto: 'Casa',
+                texto: 'Casa'
               },
               {
                 id: 2,
-                texto: 'Casa em Condomínio',
+                texto: 'Casa em Condomínio'
               },
               {
                 id: 3,
-                texto: 'Chácara',
+                texto: 'Chácara'
               },
               {
                 id: 4,
-                texto: 'Sítio',
+                texto: 'Sítio'
               },
               {
                 id: 5,
-                texto: 'Terreno',
+                texto: 'Terreno'
               },
               {
                 id: 6,
-                texto: 'Terreno em Condomínio',
+                texto: 'Terreno em Condomínio'
               },
               {
                 id: 7,
-                texto: 'Área',
+                texto: 'Área'
               }
             ]
           }
-        }, 
+        },
         {
           id: 10,
           foiExibido: false,
@@ -451,7 +451,7 @@ export default {
             label: '',
             texto: ''
           }
-        }, 
+        },
         {
           id: 11,
           foiExibido: false,
@@ -465,19 +465,19 @@ export default {
             opcoes: [
               {
                 id: 0,
-                texto: 'Residencial',
+                texto: 'Residencial'
               },
               {
                 id: 1,
-                texto: 'Comercial',
+                texto: 'Comercial'
               },
               {
                 id: 2,
-                texto: 'Empreendimento',
-              },
+                texto: 'Empreendimento'
+              }
             ]
           }
-        }, 
+        },
         {
           id: 12,
           foiExibido: false,
@@ -498,11 +498,10 @@ export default {
                 id: 1,
                 texto: 'Vender',
                 funcao: 'finalizarAnuncio'
-              },
+              }
             ]
           }
-        }, 
-        
+        }
       ],
       arrayScriptCompraAluguelExtendido: [
         {
@@ -533,7 +532,7 @@ export default {
             opcoes: [
               {
                 id: 0,
-                texto: 'Meu lazer é fazer churrasco',
+                texto: 'Meu lazer é fazer churrasco'
               },
               {
                 id: 1,
@@ -554,9 +553,9 @@ export default {
               {
                 id: 5,
                 texto: 'Tem que ter sala de jogos'
-              },
+              }
             ]
-          },
+          }
         },
         {
           id: 12,
@@ -599,7 +598,7 @@ export default {
             opcoes: [
               {
                 id: 0,
-                texto: 'Ar condicionado',
+                texto: 'Ar condicionado'
               },
               {
                 id: 1,
@@ -612,9 +611,9 @@ export default {
               {
                 id: 3,
                 texto: 'Uma sauna quentinha'
-              },
+              }
             ]
-          },
+          }
         },
         {
           id: 17,
@@ -658,25 +657,24 @@ export default {
                 id: 4,
                 texto: 'Vigilância 24 horas',
                 funcao: 'finalizarSimples'
-              },
+              }
             ]
-          },
-        },
+          }
+        }
       ],
       arrayImoveis: [],
       objetoResposta: null,
       exibComponent: false,
       objetoImovelSelecionado: {},
       sheet: false,
-      rating: 4,
+      rating: 4
     }
   },
   methods: {
-    avancarConversa() {
-      
-      let objetoProximaInteracao = this.arrayScriptPrincipal.filter(e => e.foiExibido === false)[0];
-      let interacaoParaHistorico = this.arrayScriptPrincipal.filter(e => e.foiExibido === false)[0];
-      
+    avancarConversa () {
+      let objetoProximaInteracao = this.arrayScriptPrincipal.filter(e => e.foiExibido === false)[0]
+      let interacaoParaHistorico = this.arrayScriptPrincipal.filter(e => e.foiExibido === false)[0]
+
       if (!objetoProximaInteracao) {
         // this.objetoResposta = null
         // this.arrayHistoricoConversa = this.arrayHistoricoConversa.concat([
@@ -693,22 +691,21 @@ export default {
         //     texto: 'Podemos conversar mais tarde?'
         //   }
         // ])
-        
         // return false
       }
-      
+
       interacaoParaHistorico.id = this.arrayHistoricoConversa.length
       this.arrayHistoricoConversa.push(objetoProximaInteracao)
-      
-      //let avancaNovamente = objetoProximaInteracao.modelo === 'pergunta' && objetoProximaInteracao.resposta ? false : true
-      let avancaNovamente = objetoProximaInteracao.modelo === 'pergunta' && objetoProximaInteracao.resposta ? false : true
-      
+
+      // let avancaNovamente = objetoProximaInteracao.modelo === 'pergunta' && objetoProximaInteracao.resposta ? false : true
+      let avancaNovamente = !(objetoProximaInteracao.modelo === 'pergunta' && objetoProximaInteracao.resposta)
+
       for (let index = 0; index < this.arrayScriptPrincipal.length; index++) {
-        const item = this.arrayScriptPrincipal[index];
-        
+        const item = this.arrayScriptPrincipal[index]
+
         if (item.id === objetoProximaInteracao.id) {
           this.arrayScriptPrincipal[index].foiExibido = true
-          
+
           if (avancaNovamente) {
             this.avancarConversa()
           } else this.objetoResposta = objetoProximaInteracao.resposta
@@ -716,14 +713,13 @@ export default {
         }
       }
 
-      //this.$vuetify.goTo(9999, { duration: 800, offset: 0, easing: 'easeInOutCubic' })
+      // this.$vuetify.goTo(9999, { duration: 800, offset: 0, easing: 'easeInOutCubic' })
       return true
-
     },
-    responder(resposta) {
-      let respostaUsuario = resposta.texto || resposta 
+    responder (resposta) {
+      let respostaUsuario = resposta.texto || resposta
 
-      if (!respostaUsuario || respostaUsuario.texto === "") return false
+      if (!respostaUsuario || respostaUsuario.texto === '') return false
 
       this.arrayHistoricoConversa.push({
         id: this.arrayHistoricoConversa.length,
@@ -784,7 +780,7 @@ export default {
             item.id = this.arrayScriptPrincipal.length
             this.arrayScriptPrincipal.push(item)
           })
-          /*this.arrayScriptPrincipal.push({
+          /* this.arrayScriptPrincipal.push({
             id: this.arrayScriptPrincipal.length,
             foiExibido: false,
             pausaEscrita: 2,
@@ -795,11 +791,10 @@ export default {
               modelo: 'anunciar',
               tipo: 'component'
             }
-          })*/
+          }) */
         }
 
         if (resposta.funcao === 'avaliar') {
-
           this.arrayScriptPrincipal.push({
             id: this.arrayScriptPrincipal.length,
             foiExibido: false,
@@ -812,11 +807,9 @@ export default {
               tipo: 'component'
             }
           })
-
         }
 
         if (resposta.funcao === 'reportar') {
-
           this.arrayScriptPrincipal.push({
             id: this.arrayScriptPrincipal.length,
             foiExibido: false,
@@ -829,7 +822,6 @@ export default {
               tipo: 'component'
             }
           })
-
         }
       }
 
