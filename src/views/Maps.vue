@@ -23,43 +23,38 @@
 import imoveis from '@/dates/json/houses.json'
 export default {
   created() {
-    this.arrayImoveis = imoveis.houses,
+    this.arrayImoveis = imoveis.houses
     this.nomesLista()
   },
   data () {
     return {
       arrayNomes: [],
       arrayImoveis: [],
-      items: [
-        'Problema estrutural',
-        'Problema eletrico',
-        'Pintura'
-        ],
-        top: true,
-        bottom: false,
-        left: false,
-        right: false,
-        snackbar: false,
-        teste: null
+      items: ['Problema estrutural', 'Problema eletrico', 'Pintura'],
+      top: true,
+      bottom: false,
+      left: false,
+      right: false,
+      snackbar: false,
+      teste: null
+    }
+  },
+  methods: {
+    snack (...args) {
+      this.top = false
+      this.bottom = false
+      this.left = false
+      this.right = false
+      for (const loc of args) {
+        this[loc] = true
       }
+      this.snackbar = true
     },
-    methods: {
-      snack (...args) {
-        this.top = false
-        this.bottom = false
-        this.left = false
-        this.right = false
-
-        for (const loc of args) {
-          this[loc] = true
-        }
-        this.snackbar = true
-      },
-      nomesLista() {
-        this.arrayImoveis.forEach(a => {
-          this.arrayNomes.push(a.nome)
-        })
-      }
+    nomesLista() {
+      this.arrayImoveis.forEach(a => {
+        this.arrayNomes.push(a.nome)
+      })
     }
   }
+}
 </script>
