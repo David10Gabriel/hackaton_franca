@@ -1,5 +1,5 @@
 {
-  "name": "vuetify-material-dashboard",
+  "name": "francis-chatbot",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -13,13 +13,13 @@
   "dependencies": {
     "chartist": "0.11.0",
     "express": "^4.16.4",
-    "node-sass": "^4.9.3",
+    "node-sass": "^9.0.0",
     "register-service-worker": "^1.6.2",
-    "sass-loader": "^7.1.0",
-    "vue": "^2.5.17",
+    "sass-loader": "^10",
+    "vue": "^2.7.16",
     "vue-chartist": "^2.1.2",
     "vue-meta": "^1.5.2",
-    "vuetify": "^1.2.5"
+    "vuetify": "^1.5.24"
   },
   "devDependencies": {
     "@mdi/font": "^2.5.94",
